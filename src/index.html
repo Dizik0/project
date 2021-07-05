@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./sass/main.scss" />
+  <style>
+    .hero{
+    background-image: url(./images/pic.png);
+    background-repeat: no-repeat;
+
+    }
+
+    body{
+    background-image: url(./images/bg-body.png);
+    
+    }
+  </style>
+  </head>
+  <body>
+      <section class="bg-preloader">
+        <div id="preloader">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+    <section class="hero">
+      <div class="section">
+        <img src="./images/logo.png" alt="logo" class="logo">
+        <h1 class="hero-text">FIND BEST EVENTS AROUND THE WORLD</h1>
+        <form>
+          <input type="text"  class="input" placeholder="Start searching "/>
+          
+          <select class="input country-screach">
+            <option>123</option>
+            <option>123</option>
+          </select>
+        </form>
+        </section> 
+        <!-- TODO dynamic rendering section  -->
+        <section class="bg-body">
+        <section class="main">
+          <div class="section">
+            <ul class="list-main"></ul>
+          </div>
+      </section>
+
+        <section class="pagination">
+          <div class="section"></div>
+        </section>
+
+        <footer class="footer">
+          <div class=" section">
+            <p class="text-footer">
+              © 2021 | All Rights Reserved | Developed with <span class="heart">♥</span> by GoIT Students
+            </p>
+          </div>
+        </footer>
+        </section>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{{#each .}}
+<li class="one-card-list">
+    <div>
+        <img src="{{images.5.url}}" alt="groop" class="photo-one-card-list">
+        <h2 class="name-one-card-list">{{name}}</h2>
+        <p class="date-one-card-list">{{dates.start.localDate}}</p>
+        {{#if _embedded.venues.0.name}}
+         <a class="location-one-card-list" href="https://www.google.com/maps/search/?api=1&query={{_embedded.venues.0.location.latitude}},{{_embedded.venues.0.location.longitude}}&query_place_id={{_embedded.venues.0.id}}">{{_embedded.venues.0.name}}</a>
+        {{/if}}
+       
+    </div>
+</li>
+{{/each}}

@@ -1,0 +1,43 @@
+.hero {
+  padding-top: 78px;
+}
+
+body {
+  position: relative;
+  background-color: #212121;
+}
+
+.hero-text {
+  display: block;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 900;
+  text-align: center;
+  color: $accent-color;
+  margin-bottom: 25px;
+}
+
+.input {
+  border-radius: 20px;
+  width: 270px;
+  height: 40px;
+  border: none;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  color: $gray-text-color;
+  background: url(../images/lypa.png) no-repeat right;
+  padding-right: 48px;
+  background-position: 228px 14px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.country-screach {
+  margin-bottom: 52px;
+}
